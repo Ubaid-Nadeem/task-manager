@@ -1,0 +1,75 @@
+.skeletoncard {
+    height: fit-content;
+    /* margin: 0 auto; */
+    background-color: #011522;
+    border-radius: 8px;
+    z-index: 1;
+    max-width: 400px;
+
+    color: rgb(202, 202, 202);
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+     
+
+  .card_load_extreme_title {
+    width: 90px;
+    height: 10px;
+    /* position: relative; */
+    /* float: right; */
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
+    40%, #e5e5e5 48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+  }
+  
+  .card_load_extreme_descripion {
+    width: 90px;
+    height: 47px;
+    position: relative;
+    /* float: right; */
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 
+    40%, #e5e5e5 48%);
+    margin-top: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+  }
+  
+  @keyframes load89234 {
+    100% {
+      background-position: -100% 0;
+    }
+  }

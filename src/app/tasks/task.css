@@ -1,0 +1,15 @@
+/* .tasks-container > div {
+  flex: 1;
+} */
+
+
+@media only screen and (max-width: 768px) {
+    .tasks-container > div {
+        flex: 0;
+        width: 100%;
+      }
+      .tasks-container{
+        flex-direction: column;
+
+      }
+}
